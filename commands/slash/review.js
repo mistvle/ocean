@@ -84,6 +84,6 @@ module.exports = {
     }
   ]
 });
-    await interaction.reply("<:check:1502681323989504000> **Successfully** submitted review in <#1502479232205328475>.")
+    await interaction.reply({content: "<:check:1502681323989504000> **Successfully** submitted review in <#1502479232205328475>.", flags: 64})
     }
 }
