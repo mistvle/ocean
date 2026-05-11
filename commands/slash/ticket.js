@@ -43,7 +43,7 @@ module.exports = {
     const channel = interaction.channel; // ✅ FIXED undefined
 
     const isAdmin = interaction.member.permissions.has("Administrator");
-    const hasRole = interaction.member.roles.cache.has("1502473793497469009");
+    const hasRole = interaction.member.roles.cache.has("1502473790498672741");
 
     if (!hasRole && !isAdmin) {
       return interaction.reply("<:xMark:1502681150231941282>  You must be a staff member to use this command.");
