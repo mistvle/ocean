@@ -266,7 +266,7 @@ if (sub === "closerequest") {
       "components": [
         {
           "type": 10,
-          "content": "# <:bell:1503258490599374898> Close Request"
+          "content": `# <:bell:1503258490599374898> Close Request\n-# <@${userId}`
         },
         {
           "type": 14,
