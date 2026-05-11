@@ -10,7 +10,7 @@ module.exports = {
         }
 
         const name = args.slice(0).join(" ");
-        await message.channel.rename(name);
+        await message.channel.setName(name);
         await message.reply(`<:check:1502681323989504000> Successfully renamed ticket to **${name}.**`)
     }
 }
