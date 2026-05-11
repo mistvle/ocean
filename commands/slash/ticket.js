@@ -321,7 +321,7 @@ if (sub === "closerequest") {
     }
   ]
 });
-  await interaction.reply({content: "<:check:1502681323989504000> Succesfully sent close request."})
+  await interaction.reply({content: "<:check:1502681323989504000> Succesfully sent close request.", flags: 64})
 }
   }
 };
