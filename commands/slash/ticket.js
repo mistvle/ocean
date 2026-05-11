@@ -258,7 +258,7 @@ if (sub === "closerequest") {
 
   const [userId] = (channel.topic || "").split("|");
 
-  return channel.send({
+  await channel.send({
   "flags": 32768,
   "components": [
     {
@@ -321,6 +321,7 @@ if (sub === "closerequest") {
     }
   ]
 });
+  await interaction.reply({content: "<:check:1502681323989504000> Succesfully sent close request."})
 }
   }
 };
