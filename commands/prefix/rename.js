@@ -42,7 +42,7 @@ module.exports = {
     try {
       await message.channel.setName(newName);
 
-      await message.reply(`<:check:1502681323989504000> Successfully renamed ticket to ${newName}.`);
+      await message.reply(`<:check:1502681323989504000> Successfully renamed ticket to **${newName}**.`);
     } catch (err) {
       console.error(err);
 
