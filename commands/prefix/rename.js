@@ -1,5 +1,5 @@
 module.exports = {
-    customId: "rename",
+    name: "rename",
     async execute (message, args) {
         const REQUIRED_ROLE_ID = "1502473790498672741";
         const hasRole = message.member.roles.cache.has(REQUIRED_ROLE_ID);
