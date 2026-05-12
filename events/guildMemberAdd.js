@@ -15,7 +15,7 @@ module.exports = {
         {
           "style": 2,
           "type": 2,
-          "label": "${member.guild.memberCount}",
+          "label": `${member.guild.memberCount}`,
           "emoji": {
             "id": "1502684333209817149",
             "name": "m_Heart",
