@@ -7,7 +7,7 @@ module.exports = {
 
     if (channel) {
       channel.send({
-  "content": "<:wave:1503639751465631745> Welcome ${member} to **Ocean Customs** — your go-to ER:LC service hub provider. If you're looking to order top-notch products for the cheapest prices, order today in our [services](https://discord.com/channels/1502473705127809044/1502479201326858461) channel.",
+  "content": `<:wave:1503639751465631745> Welcome ${member} to **Ocean Customs** — your go-to ER:LC service hub provider. If you're looking to order top-notch products for the cheapest prices, order today in our [services](https://discord.com/channels/1502473705127809044/1502479201326858461) channel.`,
   "components": [
     {
       "type": 1,
