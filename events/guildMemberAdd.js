@@ -3,7 +3,7 @@ module.exports = {
 
   async execute(member, client) {
 
-    const channel = member.guild.channels.cache.get(process.env.WELCOME_CHANNEL_ID);
+    const channel = member.guild.channels.cache.get("1502479721701707877");
 
     if (channel) {
       channel.send({
