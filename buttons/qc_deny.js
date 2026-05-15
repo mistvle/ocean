@@ -32,7 +32,7 @@ module.exports = {
         if (thread) {
 
             await thread.send(
-                `<:xMark:1502681150231941282> ${interaction.user} has denied this quality control request.`
+                `<:xMark:1502681150231941282> ${interaction.user} Has denied this quality control request.`
             );
 
             await thread.setLocked(true).catch(() => {});

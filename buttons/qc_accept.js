@@ -32,7 +32,7 @@ module.exports = {
         if (thread) {
 
             await thread.send(
-                `<:check:1502681323989504000> ${interaction.user} has accepted this quality control request.`
+                `<:check:1502681323989504000> ${interaction.user} Has accepted this quality control request.`
             );
 
             await thread.setLocked(true).catch(() => {});
