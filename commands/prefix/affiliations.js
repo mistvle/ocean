@@ -7,7 +7,7 @@ module.exports = {
             return;
         }
 
-        const channel = message.guid.channels.cache.get("1502478471568556142");
+        const channel = message.guild.channels.cache.get("1502478471568556142");
         await message.delete();
         await channel.send({
   "flags": 32768,
