@@ -27,6 +27,13 @@ module.exports = {
             components: data
         });
 
-        await interaction.followUp(`<:xMark:1502681150231941282> ${interaction.user} denied this quality control request.`);
+        // SEND IN THREAD
+        const thread = interaction.message.thread;
+
+        if (thread) {
+            await thread.send(
+                `<:xMark:1502681150231941282> ${interaction.user} has denied this quality control request.`
+            );
+        }
     }
 }
