@@ -27,13 +27,16 @@ module.exports = {
             components: data
         });
 
-        // SEND IN THREAD
         const thread = interaction.message.thread;
 
         if (thread) {
+
             await thread.send(
                 `<:check:1502681323989504000> ${interaction.user} has accepted this quality control request.`
             );
+
+            await thread.setLocked(true).catch(() => {});
+            await thread.setArchived(true).catch(() => {});
         }
     }
 }
