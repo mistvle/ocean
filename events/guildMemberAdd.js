@@ -31,7 +31,7 @@ module.exports = {
           "type": 2,
           "style": 5,
           "label": "Dashboard",
-          "url": "https://discord.com/channels/1502473705127809044/1502478453050572921",
+          "url": "https://discord.com/channels/1502473705127809044/1502478453050572921"
         }
       ]
     }
